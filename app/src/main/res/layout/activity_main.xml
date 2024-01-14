@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Student Information"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:ems="10"
+        android:selectAllOnFocus="true"
+        android:layout_below="@+id/txt1"
+        android:minHeight="48dp"
+        android:layout_toRightOf="@+id/txt3"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No:"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt3"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter roll no"
+        android:ems="10"
+        android:selectAllOnFocus="true"
+        android:layout_below="@+id/txt3"
+        android:minHeight="48dp"
+        android:layout_toRightOf="@+id/txt2"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class:"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt2"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter class"
+        android:selectAllOnFocus="true"
+        android:ems="10"
+        android:layout_below="@+id/edit1"
+        android:minHeight="48dp"
+        android:layout_toRightOf="@+id/txt4"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address:"
+        android:textSize="20dp"
+        android:layout_below="@id/edit3"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter email Address"
+        android:selectAllOnFocus="true"
+        android:ems="10"
+        android:layout_below="@id/edit3"
+        android:minHeight="48dp"
+        android:layout_toRightOf="@id/txt5"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Contact NO.:"
+        android:textSize="20dp"
+        android:layout_below="@id/edit4"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Contact NO."
+        android:selectAllOnFocus="true"
+        android:ems="10"
+        android:layout_below="@id/edit4"
+        android:minHeight="48dp"
+        android:layout_toRightOf="@id/txt5"
+        android:layout_marginLeft="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/edit5"
+        android:layout_toRightOf="@id/txt5"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>
